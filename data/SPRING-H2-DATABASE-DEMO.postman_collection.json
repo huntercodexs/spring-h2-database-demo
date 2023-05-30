@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "c8b9dd32-1e60-42bb-a566-b1abc29f3267",
+		"name": "SPRING-H2-DATABASE-DEMO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17383820"
+	},
+	"item": [
+		{
+			"name": "READ PRODUCTS",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31303/spring-h2-database-demo/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31303",
+					"path": [
+						"spring-h2-database-demo",
+						"api",
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "READ SALES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:31303/spring-h2-database-demo/api/sales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "31303",
+					"path": [
+						"spring-h2-database-demo",
+						"api",
+						"sales"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
